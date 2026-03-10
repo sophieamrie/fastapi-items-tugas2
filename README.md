@@ -6,13 +6,12 @@ RESTful API sederhana untuk manajemen item, dibuat menggunakan FastAPI, SQLAlche
 
 ## Struktur Project
 
-items-api/
-├── database.py      # Koneksi DB, SessionLocal, Base
-├── models.py        # SQLAlchemy Model (struktur tabel)
-├── schemas.py       # Pydantic Schema (validasi output)
-├── main.py          # FastAPI app & endpoint
-├── seed.py          # Data awal untuk testing
-└── requirements.txt
+- `database.py` — Koneksi DB, SessionLocal, Base
+- `models.py` — SQLAlchemy Model (struktur tabel)
+- `schemas.py` — Pydantic Schema (validasi output)
+- `main.py` — FastAPI app & endpoint
+- `seed.py` — Data awal untuk testing
+- `requirements.txt` — Daftar dependencies
 
 ## Cara Menjalankan
 
